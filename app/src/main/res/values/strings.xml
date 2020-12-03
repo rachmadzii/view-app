@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">View App</string>
+    <string name="web_design">Web Design</string>
+    <string name="todo">TODO</string>
+    <string name="learn_web_design_using_framework">Learn Web Design using Framework</string>
+    <string name="learn_web_design">Learn Web Design</string>
+</resources>
