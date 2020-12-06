@@ -8,6 +8,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.example.viewapp.fragment.HomeFragment;
+import com.example.viewapp.fragment.MenuFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
@@ -40,11 +42,8 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             case R.id.home_action:
                 fragment = new HomeFragment();
                 break;
-            case R.id.contact_action:
+            case R.id.menu_action:
                 fragment = new MenuFragment();
-                break;
-            case R.id.setting_action:
-                fragment = new SettingFragment();
                 break;
         }
         return loadFragment(fragment);

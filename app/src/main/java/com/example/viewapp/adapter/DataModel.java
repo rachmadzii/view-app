@@ -1,6 +1,6 @@
-package com.example.viewapp;
+package com.example.viewapp.adapter;
 
-public class DataNote
+public class DataModel
 {
     String title;
     String sub;
@@ -8,17 +8,11 @@ public class DataNote
     String menu;
     int imageMenu;
 
-    public DataNote(String title, String sub, int image)
+    public DataModel(String title, String sub, int image)
     {
         this.title = title;
         this.sub = sub;
         this.image = image;
-    }
-
-    public DataNote(String menu, int imageMenu)
-    {
-        this.menu = menu;
-        this.imageMenu = imageMenu;
     }
 
     public String getTitle()

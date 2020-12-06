@@ -6,10 +6,7 @@
         android:icon="@drawable/ic_baseline_home"/>
 
     <item android:title="Menu"
-        android:id="@+id/contact_action"
+        android:id="@+id/menu_action"
         android:icon="@drawable/ic_baseline_dev"/>
 
-    <item android:title="List"
-        android:id="@+id/setting_action"
-        android:icon="@drawable/ic_baseline_settings"/>
 </menu>
